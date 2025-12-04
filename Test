@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiTech Cyber - Online Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            width: 250px;
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        button {
+            background: #0d6efd;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding: 15px;
+            background: #0d6efd;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DigiTech Cyber - Online Store</h1>
+    <p>Shop Readymade Clothes & Electronics at Best Prices</p>
+</header>
+
+<div class="container">
+    <h2>Featured Products</h2>
+
+    <div class="products">
+        <div class="card">
+            <img src="https://via.placeholder.com/250x180?text=T-Shirt" alt="T-shirt">
+            <h3>Stylish T-Shirt</h3>
+            <p>Price: ₹199</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250x180?text=Shirt" alt="Shirt">
+            <h3>Men's Casual Shirt</h3>
+            <p>Price: ₹299</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250x180?text=Smartphone" alt="Phone">
+            <h3>Smartphone</h3>
+            <p>Price: ₹5,999</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250x180?text=Headphones" alt="Headphones">
+            <h3>LED Headphones</h3>
+            <p>Price: ₹399</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250x180?text=Kurti" alt="Kurti">
+            <h3>Women's Kurti</h3>
+            <p>Price: ₹249</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2025 DigiTech Cyber. All Rights Reserved.
+</footer>
+
+</body>
+</html>
